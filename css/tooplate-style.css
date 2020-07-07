@@ -70,7 +70,9 @@ p {
   line-height: 1.9;
   letter-spacing: 1px;
 }
-
+.freebirdFormviewerViewFooterEmbeddedBackground{
+  display: none;
+}
 .tm-main-content {
   display: flex;
   align-items: center;
