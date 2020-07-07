@@ -12,15 +12,6 @@ h1 {
 *{
     box-sizing: border-box;
 }
-/* Active tab heading colour */
-.fusion-tabs .nav-tabs > li.active a .fusion-tab-heading {
-color: #ffffff ;
-}
-
-/* Active tab heading hover colour */
-.fusion-tabs .nav-tabs > li.active a:hover .fusion-tab-heading {
-color: #dddddd;
-}
 .column{
     float: left;
     width: 44.33%;
@@ -79,9 +70,7 @@ p {
   line-height: 1.9;
   letter-spacing: 1px;
 }
-.freebirdFormviewerViewFooterEmbeddedBackground{
-  display: none;
-}
+
 .tm-main-content {
   display: flex;
   align-items: center;
@@ -156,7 +145,7 @@ p {
 }
 
 .tm-nav-icon {
-  display: block;
+  display:  
   margin-bottom: 25px;
 }
 
