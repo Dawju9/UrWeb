@@ -214,6 +214,8 @@ p {
 
 .details--open {
   pointer-events: auto;
+  
+  opacity: 0.96;
 }
 
 .details__bg {
@@ -223,8 +225,6 @@ p {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  
-  opacity: 0.96;
 }
 
 .details__bg--down {
