@@ -214,7 +214,7 @@ p {
 
 .details--open {
   pointer-events: auto;
-  
+    
   opacity: 0.96;
 }
 
