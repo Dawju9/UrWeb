@@ -404,6 +404,7 @@ p:last-child {
     text-align: left;
     font-size: 15px;
     padding-right: 6px;
+    margin-left: 5px;
   }
   .tm-nav-text {
     font-size: 10px;
@@ -449,7 +450,7 @@ p:last-child {
   .tekst-kierki{
     margin: 5px;
     text-align: left;
-    width: 46%;
+    width: 10%;
     font-size: 15px;
     padding-right: 6px;
   }
