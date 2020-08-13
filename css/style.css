@@ -407,7 +407,7 @@ p:last-child {
     flex-direction: row-reverse;
   }
 }
-@media (max-width: 500px and min-width: 300px) {
+@media (max-width: 700px and min-width: 300px) {
   .mb-4 {
     font-size: 24px
   }
