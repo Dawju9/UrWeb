@@ -30,10 +30,13 @@ h1 {
     align-items: center;
 }
 .tekst-kierki{
-  margin: 25px;
+  margin: 10px;
   text-align: left;
   width: 46%;
   font-size: 40px;
+}
+.zdjkiera {
+  width:100%;
 }
 #ds-bg {
   position: fixed;
@@ -374,19 +377,13 @@ p:last-child {
   margin-bottom: 0;
 }
 
-@media (min-width: 900px) {
-  .container {
-    max-width: 900px;
-  }
-}
+@media (max-width: 600px) {
+   .tm-main-content {
+     font-size: 19px;
+     max-width: 600px;
+   }
 
-@media (min-width: 767px) and (max-width: 991px), (max-width: 440px) {
-  .tm-nav-link {
-    width: 145px;
-    height: 145px;
-  }
-}
-
+/* next na 767px*/
 @media (max-width: 767px) {
   .container {
     max-width: 450px;
@@ -399,6 +396,20 @@ p:last-child {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+  }  
+  .zdjkiera {
+    display: none;
+  }
+  .tekst-kierki{
+    text-align: left;
+    font-size: 15px;
+    padding-right: 6px;
+  }
+  .tm-nav-text {
+    font-size: 10px;
+  }
+  .row {
+    font-size: 10px; 
   }
   .grid {
     justify-content: flex-end;
@@ -409,54 +420,66 @@ p:last-child {
   .tm-reverse-sm {
     flex-direction: row-reverse;
   }
-}
-
-@media (max-width: 544px) {
-  .tm-main-content {
-    flex-direction: column;
+  .columny {
+    font-size: 7px;
   }
-  .details__bg {
-    padding: 55px 40px;
+  .column {
+    font-size: 7px;
+  }
+}
+@media (max-width: 700px and min-width: 300px) {
+  .mb-4 {
+    font-size: 17px
+  }
+  .tm-nav-text {
+    font-size: 10px;
+  }
+  .img-fluid mb-4 {
+    display: none;
   }
   .slick-dots li button:before {
     font-size: 15px;
   }
-
-  footer {
-    position: relative;
+  .column {
+    font-size: 7px;
+  }
+  .row {
+    font-size: 10px; 
+  }
+  .tekst-kierki{
+    margin: 5px;
+    text-align: left;
+    width: 46%;
+    font-size: 15px;
+    padding-right: 6px;
+  }
+  .zdjkiera {
+    display: none;
+  }
+  .footer {
+    position: center;
     bottom: 0;
   }
-}
-
-@media (max-width: 419px) {
+  .kierka {
+    margin-left: auto;
+    margin-right: auto;
+  }
   .tm-nav-link {
-    width: 120px;
-    height: 120px;
+    font-size 15px
   }
-
-  .fa-3x {
-    font-size: 20px;
-  }
- .h5 {
-    font-size: 13px;
-  }
-  .product__bg {
+  .pt-sm-4 pb-sm-4 {
+    box-sizing: 25%   
     width: 25%;
     height: 25%;
-    top: 0px;
   }
-
-.product__bg,
-.product__description {
-  opacity: 0;
-  position: absolute;
-}
-
-.product__description {
-  width: 20%;
-  height: 20%;
-  top: 0;
-  font-size: 12px;
-  left: 0;
-  display: none;
+  .col-12 {
+    box-sizing: 25%   
+    width: 25%;
+    height: 25%;
+  }
+  .grid__item {
+    box-sizing: 25%   
+    width: 25%;
+    height: 25%;
+  }
 }
