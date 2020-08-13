@@ -404,8 +404,7 @@ p:last-child {
     flex-direction: row-reverse;
   }
 }
-
-@media (max-width: 500px) {
+@media (max-width: 500px and min-width: 300px) {
   .mb-4 {
     font-size: 17px
   }
@@ -418,8 +417,11 @@ p:last-child {
   .column {
     font-size: 10px;
   }
-  .tekst-kierki {
-    font-size: 15px;
+ .tekst-kierki{
+  margin: 25px;
+  text-align: left;
+  width: 46%;
+  font-size: 15px;
   }
   .footer {
     position: center;
