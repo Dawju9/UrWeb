@@ -12,6 +12,10 @@ h1 {
 *{
     box-sizing: border-box;
 }
+
+h5 {
+   font-size: 25px;
+}
 .column{
     float: left;
     width: 44.33%;
@@ -374,13 +378,19 @@ p:last-child {
   margin-bottom: 0;
 }
 
-@media (max-width: 600px) {
-   .tm-main-content {
-     font-size: 19px;
-     max-width: 600px;
-   }
+@media (min-width: 900px) {
+  .container {
+    max-width: 900px;
+  }
+}
 
-/* next na 767px*/
+@media (min-width: 767px) and (max-width: 991px), (max-width: 440px) {
+  .tm-nav-link {
+    width: 145px;
+    height: 145px;
+  }
+}
+
 @media (max-width: 767px) {
   .container {
     max-width: 450px;
@@ -405,36 +415,31 @@ p:last-child {
   }
 }
 
-@media (max-width: 500px) {
-  .mb-4 {
-    font-size: 19px
+@media (max-width: 544px) {
+  .tm-main-content {
+    flex-direction: column;
   }
-  .img-fluid mb-4 {
-    display: none;
+  .details__bg {
+    padding: 55px 40px;
   }
-
   .slick-dots li button:before {
     font-size: 15px;
   }
 
   footer {
-    position: center;
+    position: relative;
     bottom: 0;
   }
 }
+
 @media (max-width: 419px) {
   .tm-nav-link {
     width: 120px;
     height: 120px;
   }
-  .img-fluid mb-4 {
-    display: none;
-  }
+
   .fa-3x {
     font-size: 20px;
-  }
- .h5 {
-    font-size: 13px;
   }
   .product__bg {
     width: 25%;
