@@ -405,30 +405,20 @@ p:last-child {
   }
 }
 
-@media (max-width: 544px) {
-  .tm-main-content {
-    flex-direction: column;
+@media (max-width: 500px) {
+  .mb-4 {
+    font-size: 19px
   }
-  .details__bg {
-    padding: 55px 40px;
+  .img-fluid mb-4 {
+    display: none;
   }
+
   .slick-dots li button:before {
     font-size: 15px;
   }
 
   footer {
-    position: relative;
+    position: center;
     bottom: 0;
-  }
-}
-
-@media (max-width: 419px) {
-  .tm-nav-link {
-    width: 120px;
-    height: 120px;
-  }
-
-  .fa-3x {
-    font-size: 2.2em;
   }
 }
