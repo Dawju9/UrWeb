@@ -416,8 +416,13 @@ p:last-child {
   .slick-dots li button:before {
     font-size: 15px;
   }
-
-  footer {
+  .row {
+    font-size: 10px;
+  }
+  .kierka {
+    font-size: 10px;
+  }
+  .footer {
     position: center;
     bottom: 0;
   }
