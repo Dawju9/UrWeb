@@ -412,19 +412,35 @@ p:last-child {
   .img-fluid mb-4 {
     display: none;
   }
-
   .slick-dots li button:before {
     font-size: 15px;
   }
-  .row {
+  .column {
     font-size: 10px;
   }
-  .kierka {
-    font-size: 10px;
+  .tekst-kierki {
+    font-size: 15px;
   }
   .footer {
     position: center;
     bottom: 0;
+  }
+  .kierka {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .tm-nav-link {
+    font-size 15px
+  }
+  .pt-sm-4 pb-sm-4 {
+    box-sizing: 25%   
+    width: 25%;
+    height: 25%;
+  }
+  .col-12 {
+    box-sizing: 25%   
+    width: 25%;
+    height: 25%;
   }
   .grid__item {
     box-sizing: 25%   
