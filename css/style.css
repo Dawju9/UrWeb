@@ -418,10 +418,14 @@ p:last-child {
     font-size: 10px;
   }
  .tekst-kierki{
-  margin: 25px;
-  text-align: left;
-  width: 46%;
-  font-size: 15px;
+    margin: 25px;
+    text-align: left;
+    width: 46%;
+    font-size: 15px;
+  }
+  .zdjkiera {
+    max-width: 50px;
+    width: 30%;
   }
   .footer {
     position: center;
