@@ -407,7 +407,7 @@ p:last-child {
     margin-left: 5px;
   }
   .tm-nav-text {
-    font-size: 10px;
+    font-size: 14px;
   }
   .row {
     font-size: 10px; 
@@ -433,7 +433,7 @@ p:last-child {
     font-size: 17px
   }
   .tm-nav-text {
-    font-size: 10px;
+    font-size: 14px;
   }
   .img-fluid mb-4 {
     display: none;
