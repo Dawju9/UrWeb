@@ -400,6 +400,18 @@ p:last-child {
   .zdjkiera {
     display: none;
   }
+  .kierka{
+    content: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tekst-kierki{
+    margin: 5px;
+    text-align: left;
+    width: 46%;
+    font-size: 15px;
+  }
   .grid {
     justify-content: flex-end;
   }
@@ -408,6 +420,9 @@ p:last-child {
   }
   .tm-reverse-sm {
     flex-direction: row-reverse;
+  }
+  .column {
+    font-size: 10px;
   }
 }
 @media (max-width: 700px and min-width: 300px) {
@@ -423,8 +438,14 @@ p:last-child {
   .column {
     font-size: 10px;
   }
- .tekst-kierki{
-    margin: 25px;
+  .kierka{
+    content: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tekst-kierki{
+    margin: 5px;
     text-align: left;
     width: 46%;
     font-size: 15px;
