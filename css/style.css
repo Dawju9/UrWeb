@@ -393,6 +393,9 @@ p:last-child {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+  }  
+  .zdjkiera {
+    display: none;
   }
   .grid {
     justify-content: flex-end;
@@ -404,7 +407,7 @@ p:last-child {
     flex-direction: row-reverse;
   }
 }
-@media (max-width: 670px) {
+@media (max-width: 700px and min-width: 300px) {
   .mb-4 {
     font-size: 17px
   }
