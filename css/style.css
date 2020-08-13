@@ -400,17 +400,12 @@ p:last-child {
   .zdjkiera {
     display: none;
   }
-  .kierka{
-    content: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   .tekst-kierki{
-    margin: 5px;
     text-align: left;
-    width: 46%;
     font-size: 15px;
+  }
+  .row {
+    font-size: 10px; 
   }
   .grid {
     justify-content: flex-end;
@@ -421,8 +416,11 @@ p:last-child {
   .tm-reverse-sm {
     flex-direction: row-reverse;
   }
+  .columny {
+    font-size: 7px;
+  }
   .column {
-    font-size: 10px;
+    font-size: 7px;
   }
 }
 @media (max-width: 700px and min-width: 300px) {
@@ -436,13 +434,15 @@ p:last-child {
     font-size: 15px;
   }
   .column {
-    font-size: 10px;
+    font-size: 7px;
   }
-  .kierka{
-    content: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
+  .tekst-kierki{
+    text-align: left;
+    font-size: 15px;
+  }
+  .row {
+    font-size: 10px; 
   }
   .tekst-kierki{
     margin: 5px;
